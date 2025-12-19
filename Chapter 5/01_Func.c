@@ -20,6 +20,9 @@ int main()
 
     int c = sum(23, 50); // function call (telling to return the sum value to c ) also called Call by value
     printf("%d\n", c);
-    /*output: 73*/
+    /*
+    output: the sum is 73
+    output: 73
+    */
     return 0;
 }

@@ -7,7 +7,7 @@ int main()
     int d = a - b;
     int e = a * b;
     int f = a / b;
-    int g = a % b; // cannot be applied to float
+    int g = a % b; // % --> is a remainder and cannot be applied to float
 
     printf("the value of a is %d and value of b is %d and sum is %d\n", a, b, c);
     printf("the value of a is %d and value of b is %d and Diference is %d\n", a, b, d);

@@ -9,6 +9,7 @@ int main()
     int c = 10, d = 20;
 
     int e, f, g;
+    // int x = y = z = 23; // not valid
     e = f = g = 100;
     printf("%d %d %d", e, f, g);
     return 0;

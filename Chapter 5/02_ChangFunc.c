@@ -10,6 +10,6 @@ int main()
 {
     int b = 22;           // The value of b remains 22
     change(b);            // passing the value of b
-    printf("b is %d", b); // b is 22
+    printf("b is %d", b); // output: b is 22
     return 0;
 }

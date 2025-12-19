@@ -9,7 +9,7 @@ struct employee
 
 int main()
 {
-    struct employee e1,e2;
+    struct employee e1;
     e1.code = 343;
     e1.salary = 34.33;
     struct employee *ptr;

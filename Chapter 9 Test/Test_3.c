@@ -14,8 +14,8 @@ int main()
     Emp *ptr = &e1;
     ptr->salary = 24242.42;
     strcpy(ptr->name, "Zooby");
-    printf("salary is %f and name is %s\n", ptr->salary, ptr->name);
-    // printf("salary is %f and name is %s\n", e1.salary, e1.name);
+    // printf("salary is %f and name is %s\n", ptr->salary, ptr->name);
+    printf("salary is %f and name is %s\n", e1.salary, e1.name);
 
     return 0;
 }

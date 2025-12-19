@@ -13,15 +13,11 @@ int fibonacci(int n)
     {
         return 1;
     }
-    else if (n == 2)
-    {
-        return 1;
-    }
     return fibonacci(n - 1) + fibonacci(n - 2);
 }
 int main()
 {
-    int n = 8;
+    int n = 9;
 
     printf("%dth element of fibonacci series is %d\n", n, fibonacci(n));
     return 0;

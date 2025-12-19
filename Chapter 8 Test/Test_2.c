@@ -5,7 +5,7 @@ that the strings are equal. */
 int main()
 {
     char a[6];
-    // scanf("%5s", a);
+    // scanf("%5s", a); // fgets(a, sizeof(a), stdin);
     // printf("%s\n", a);
 
     for (int i = 0; i < 5; i++)
@@ -14,7 +14,10 @@ int main()
         fflush(stdin); // clear the input buffer (ENTER  i.e. \n )
     }
     a[5] = '\0';
-    printf("%s", a);
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%c", a[i]);
+    }
 
     return 0;
 }

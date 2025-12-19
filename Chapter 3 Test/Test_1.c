@@ -24,7 +24,7 @@ int main()
     }
     else
     {
-        printf("you are passed\n");
+        printf("you are passed and your marks are %f\n", ((marks1 + marks2 + marks3) / 3.0));
     }
     return 0;
 }

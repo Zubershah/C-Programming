@@ -20,7 +20,7 @@ int main()
     struct vector v2 = {3, 4.45};
     struct vector v3 = sumVector(v1, v2);
 
-    printf("the value of v3 is %di +%fj\n", v3.i, v3.j);
+    printf("the value of v3 is %di + %fj\n", v3.i, v3.j);
 
     return 0;
 }

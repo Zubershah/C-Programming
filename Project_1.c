@@ -10,15 +10,15 @@ guesses the player used to arrive at the number.
 Hint: Use loop & use a random number generator.
 */
 #include <stdio.h>
-#include <stdlib.h> //
-#include <time.h>   //
+#include <stdlib.h> 
+#include <time.h>   
 int main()
 {
     int Number_of_guesses = 0;
     int guessed;
 
-    srand(time(0));                        //
-    int randomnumber = (rand() % 100) + 1; //
+    srand(time(0));                        
+    int randomnumber = (rand() % 100) + 1; 
     // printf("Random Number: %d\n", randomnumber);
 
     do

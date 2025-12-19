@@ -4,7 +4,7 @@
 struct employee
 {
     float salary;
-    char name;
+    char name[20];
 };
 
 int main()
@@ -15,7 +15,8 @@ int main()
     strcpy(facebook[0].name, "Zooby");
     strcpy(facebook[1].name, "Shah");
 
-    printf("the name of facebook employee 1 is %s and salary of %f\n", facebook[0].name, facebook[0].salary);
+    printf("the name of facebook employee 0 is %s and salary of %f\n", facebook[0].name, facebook[0].salary);
+    printf("the name of facebook employee 1 is %s and salary of %f\n", facebook[1].name, facebook[1].salary);
 
     return 0;
 }

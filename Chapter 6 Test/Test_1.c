@@ -6,7 +6,7 @@ a function and print its address. Are these addresses same? Why?
 int func(int*);
 int func(int* x)
 {
-    printf("the address of a i variable passed to a function is %p\n", &x);
+    printf("the address of i variable passed to a function is %p\n", &x);
 }
 int main()
 {

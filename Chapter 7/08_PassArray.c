@@ -1,10 +1,14 @@
 #include <stdio.h>
 
-void display(int arr[], int size) //(int *ptr, int size);
-{ // array received as parameter
+void display(int arr[], int size)
+// void display(int *ptr, int size)
+{
+    // array received as parameter
     for (int i = 0; i < size; i++)
     {
-        printf("%d ", arr[i]);   // printf("%d ", *(ptr+i));
+        printf("%d ", arr[i]);
+        // printf("%d ", *ptr); // printf("%d ", *(ptr+i));
+        // ptr++;               // no need
     }
 }
 

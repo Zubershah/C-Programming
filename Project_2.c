@@ -4,8 +4,8 @@ school time.
 Write a C program..
 */
 #include <stdio.h>
-#include <stdlib.h> //
-#include <time.h>   //
+#include <stdlib.h>
+#include <time.h>
 
 int main()
 {
@@ -13,8 +13,8 @@ int main()
     {
         int player, computer;
 
-        srand(time(0));              //
-        computer = (rand() % 3) + 0; //
+        srand(time(0));
+        computer = (rand() % 3) + 0;
 
         printf("choose 0 for rock, 1 for paper, and 2 for scissors\n");
         scanf("%d", &player);
@@ -57,6 +57,7 @@ int main()
             printf("it's draw retry\n"); // 2 Scissors
         }
 
+        printf("\n");
     } while (1);
 
     return 0;

@@ -7,18 +7,20 @@ float Sum(float, float);
 float Sum(float x, float y)
 {
     float sum = x + y;
-    float* ptr = &sum;
 
-    printf("the address of sum pointer is %u\n", ptr);
+    float (*ptr)(float, float) = &Sum;
+    printf("Address of Sum function: %p\n", ptr);
+
     return sum;
 }
 float Average(float, float);
 float Average(float x, float y)
 {
     float A = (x + y) / 2.0;
-    float* ptr = &A;
 
-    printf("the address of average pointer is %u\n", ptr);
+    float (*ptr)(float, float) = &Average;
+    printf("Address of Average function: %p\n", ptr);
+
     return A;
 }
 int main()
