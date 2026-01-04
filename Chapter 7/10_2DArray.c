@@ -8,7 +8,7 @@ int main()
     {
         for (int j = 0; j < 2; j++)
         {
-            printf("enter the values of %d row and %d coulumn\n", i, j);
+            printf("enter the values of %d row and %d coulumn\n", i + 1, j + 1);
             scanf("%d", &arr[i][j]);
         }
     }

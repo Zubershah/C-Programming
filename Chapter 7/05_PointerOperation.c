@@ -2,7 +2,7 @@
 1. Addition of a number to a pointer.
 2. Subtraction of a number from a pointer.
 3. Subtraction of one pointer from another.
-4. Comparison of two pointer variables. 
+4. Comparison of two pointer variables.
 */
 
 // #include <stdio.h>
@@ -12,10 +12,10 @@
 //     int a = 5;
 //     int *ptr = &a;
 //     printf("the address of a is %u\n", &a);
-//     printf("the address stored inptr is %u\n", ptr);
-//     // ptr += 5; // Add the Bytes as per Architecture
-//     // ptr -= 5; // Subtract the Bytes as per Architecture
-//     printf("the address of ptr is %u\n", ptr);
+//     printf("the address stored in ptr is %u\n", ptr);
+//     ptr += 5;                                  // increment by Architecture byte
+//     ptr -= 5;                                  // decrement by Architecture byte
+//     printf("the address of ptr is %u\n", ptr); // here increment by 20 byte
 
 //     return 0;
 // }
@@ -30,8 +30,8 @@
 //     int *p2 = &arr[4]; // points to 50
 //     printf("the p1 is %u\n", p1);
 //     printf("the p2 is %u\n", p2);
-//     int diff = p2 - p1; // difference in array index positions
-//     printf("Difference = %d\n", diff); // Output: 4 bytes 
+//     int diff = p2 - p1;                // difference in array index positions
+//     printf("Difference = %d\n", diff); // Output: 4 bytes
 
 //     return 0;
 // }

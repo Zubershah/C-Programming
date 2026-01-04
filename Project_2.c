@@ -9,10 +9,9 @@ Write a C program..
 
 int main()
 {
+    int player, computer;
     do
     {
-        int player, computer;
-
         srand(time(0));
         computer = (rand() % 3) + 0;
 
@@ -56,7 +55,6 @@ int main()
         {
             printf("it's draw retry\n"); // 2 Scissors
         }
-
         printf("\n");
     } while (1);
 

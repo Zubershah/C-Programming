@@ -1,5 +1,5 @@
 #include <stdio.h>
-int sum(int, int);    // function prototype take 2 integer value and return 1 integer value (result) to sum
+int sum(int, int);    // function prototype take 2 integer value and return integer value (result) to sum
 int sum(int x, int y) // function definition contain the set of instructions(what the function will do exactly)
 {
     printf("the sum is %d\n", x + y);

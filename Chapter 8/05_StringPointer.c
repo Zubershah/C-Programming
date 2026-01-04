@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     // Declaring a string using a pointer
     char *message = "Hello World";
 

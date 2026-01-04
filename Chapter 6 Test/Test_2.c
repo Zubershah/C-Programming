@@ -18,8 +18,9 @@ value.
 //     return 0;
 // }
 
-// /*Try problem using call by value and verify that it does not change the value of
-// the said variable. */
+/*
+Try problem using call by value and verify that it does not change the value of the said variable. 
+*/
 #include <stdio.h>
 int CHANGE(int);
 int CHANGE(int x)

@@ -20,7 +20,8 @@ int main()
     printf("\n");
     ptr = (int *)realloc(ptr, (n + n) * sizeof(int));
     /*
-    realloc is the function used to change the size of a memory block that you have already allocated.*/
+    realloc is the function used to change the size of a memory block that you have already allocated.
+    */
 
     for (int i = 0; i < n + n; i++)
     {

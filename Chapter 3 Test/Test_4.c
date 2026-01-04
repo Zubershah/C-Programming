@@ -8,8 +8,8 @@ int main()
     char ch;
     printf("enter the character\n");
     scanf("%c", &ch);
-    
-    if (ch >= 97 && ch <= 122)
+
+    if (ch >= 'a' && ch <= 'z')
     {
         printf("the character is lower case\n");
     }

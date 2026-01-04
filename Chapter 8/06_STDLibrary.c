@@ -19,7 +19,6 @@ int main()
     /*strcat() is used to add a2 string in a1*/
     printf("%s\n", a1); 
     printf("%s\n", a2);
-
     
     return 0;
 }

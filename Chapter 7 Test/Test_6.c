@@ -20,7 +20,7 @@ and 9 respectively. */
 //     {
 //         for (int j = 0; j < 10; j++)
 //         {
-//             printf("the value of arr[%d][%d] is %d\n", i, j, arr[i][j]);
+//             printf("the value of arr[%d][%d] is %d\n", i + 1, j + 1, arr[i][j]);
 //         }
 //         printf("\n");
 //     }
@@ -45,13 +45,13 @@ int main()
 
     for (int i = 0; i < 3; i++)
     {
-        int n;                             //
-        printf("enter the input\n");      //
-        scanf("%d", &n);                  //
+        int n;                       
+        printf("enter the input\n"); 
+        scanf("%d", &n);             
 
         for (int j = 0; j < 10; j++)
         {
-            arr[i][j] = (n * (j + 1));   // arr[i][j] =  mul[i]* (j + 1);
+            arr[i][j] = (n * (j + 1)); // arr[i][j] =  mul[i]* (j + 1);
         }
     }
 
@@ -59,7 +59,7 @@ int main()
     {
         for (int j = 0; j < 10; j++)
         {
-            printf("the value of arr[%d][%d] is %d\n", i, j, arr[i][j]);
+            printf("the value of arr[%d][%d] is %d\n", i + 1, j + 1, arr[i][j]);
         }
         printf("\n");
     }
